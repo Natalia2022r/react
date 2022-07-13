@@ -11,7 +11,7 @@ function Component ({data}) {
     <div>
     <h1> HW15 'ReactJS. Основи'</h1>
     <div className='conteiner'>
-            <img src={photo} className='photo'/>
+            <img src={photo} className='photo' alt = "photo"/>
             <div className='content'>
                 <div>
                     <h3>{name}</h3>
@@ -19,7 +19,7 @@ function Component ({data}) {
                     <span>{nickname} {date} </span>
                 </div>
                 <p>{content}</p>
-                <img src={image} className='image'/>
+                <img src={image} className='image' alt = "image"/>
                 <div className='icon'>
                     <div>
                         <FontAwesomeIcon icon={faComment}/>

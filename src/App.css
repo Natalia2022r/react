@@ -1,0 +1,57 @@
+h1{
+  text-align: center;
+}
+.conteiner {
+  display: flex;
+  box-sizing: border-box;
+  width: 50vw;
+  font-size: 18px;
+  height: fit-content;
+  padding: 20px 20px 20px 20px;
+  color: whitesmoke;
+  background-color: #251e49;
+  margin: 5px auto;
+  border-radius: 15px;
+
+}
+
+.photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 15px;
+}
+
+.content {
+  flex-direction: column;
+}
+
+ h3 {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ span {
+  margin-left: 10px;
+  color: rgb(131, 137, 131);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.icon div {
+  margin: 10px 20px;
+}
+.icon p{
+  margin-left: 5px;
+}
